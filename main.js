@@ -19,7 +19,7 @@
               appName: "DwAR",
               customerId: "4",
               campaignName: "GNC",
-              serverUrl: "https://3.110.158.27/event"
+              serverUrl: "https://staging.lttl.in/event"
           }
        );
 
@@ -152,89 +152,101 @@
 
   
     
-      const image_26700103_c20a4388_iconGeometry = new THREE.PlaneGeometry(1, 1);
-   const image_26700103_c20a4388_texture = await loadTexture("assets/image 242 (1).png");
-  const image_26700103_c20a4388_image = new THREE.MeshBasicMaterial({
-      map: image_26700103_c20a4388_texture,
+      const image_26700103_c20aeec0_iconGeometry = new THREE.PlaneGeometry(1, 1);
+   const image_26700103_c20aeec0_texture = await loadTexture("assets/image 242 (1).png");
+  const image_26700103_c20aeec0_image = new THREE.MeshBasicMaterial({
+      map: image_26700103_c20aeec0_texture,
     });
-    const image_26700103_c20a4388 = new THREE.Mesh(image_26700103_c20a4388_iconGeometry, image_26700103_c20a4388_image);
-    image_26700103_c20a4388.scale.set(0.3, 0.3, 0.3);
-    image_26700103_c20a4388.position.set(-0.4, -0.6, 0);
-    image_26700103_c20a4388.rotation.set(-0.001, 0, 0);
-    image_26700103_c20a4388.userData.clickable = true
+    const image_26700103_c20aeec0 = new THREE.Mesh(image_26700103_c20aeec0_iconGeometry, image_26700103_c20aeec0_image);
+    image_26700103_c20aeec0.scale.set(0.3, 0.3, 0.3);
+    image_26700103_c20aeec0.position.set(-0.4, -0.56, 0);
+    image_26700103_c20aeec0.rotation.set(-0.001, 0, 0);
+    image_26700103_c20aeec0.userData.clickable = true
     
-    image_26700103_c20a4388.userData.eventName ="unknown"
-const image_8cfedd60_78204253_iconGeometry = new THREE.PlaneGeometry(1, 0.68);
-   const image_8cfedd60_78204253_texture = await loadTexture("assets/gnc logo (1).png");
-  const image_8cfedd60_78204253_image = new THREE.MeshBasicMaterial({
-      map: image_8cfedd60_78204253_texture,
+    image_26700103_c20aeec0.userData.eventName ="Blinkit"
+const image_8cfedd60_7827e7bf_iconGeometry = new THREE.PlaneGeometry(1, 0.68);
+   const image_8cfedd60_7827e7bf_texture = await loadTexture("assets/gnc logo (1).png");
+  const image_8cfedd60_7827e7bf_image = new THREE.MeshBasicMaterial({
+      map: image_8cfedd60_7827e7bf_texture,
     });
-    const image_8cfedd60_78204253 = new THREE.Mesh(image_8cfedd60_78204253_iconGeometry, image_8cfedd60_78204253_image);
-    image_8cfedd60_78204253.scale.set(0.4, 0.5, 0.4);
-    image_8cfedd60_78204253.position.set(0, -0.6, 0);
-    image_8cfedd60_78204253.rotation.set(-0.001, 0, 0);
-    image_8cfedd60_78204253.userData.clickable = true
+    const image_8cfedd60_7827e7bf = new THREE.Mesh(image_8cfedd60_7827e7bf_iconGeometry, image_8cfedd60_7827e7bf_image);
+    image_8cfedd60_7827e7bf.scale.set(0.4, 0.5, 0.4);
+    image_8cfedd60_7827e7bf.position.set(0, -0.56, 0);
+    image_8cfedd60_7827e7bf.rotation.set(-0.001, 0, 0);
+    image_8cfedd60_7827e7bf.userData.clickable = true
     
-    image_8cfedd60_78204253.userData.eventName ="unknown"
-const target_imageundefib3816_iconGeometry = new THREE.PlaneGeometry(1, 0.5625);
-   const target_imageundefib3816_texture = await loadTexture("assets/gnc-marker.jpg");
-  const target_imageundefib3816_image = new THREE.MeshBasicMaterial({
-      map: target_imageundefib3816_texture,
+    image_8cfedd60_7827e7bf.userData.eventName ="GNC Website"
+const image_7f7c65c8_c092b38a_iconGeometry = new THREE.PlaneGeometry(1, 0.27);
+   const image_7f7c65c8_c092b38a_texture = await loadTexture("assets/Green Full Photo Coffee Roaster Label (7).png");
+  const image_7f7c65c8_c092b38a_image = new THREE.MeshBasicMaterial({
+      map: image_7f7c65c8_c092b38a_texture,
     });
-    const target_imageundefib3816 = new THREE.Mesh(target_imageundefib3816_iconGeometry, target_imageundefib3816_image);
-    target_imageundefib3816.scale.set(1, 1, 1);
-    target_imageundefib3816.position.set(0, 0, 0);
-    target_imageundefib3816.rotation.set(-0.001, 0, 0);
+    const image_7f7c65c8_c092b38a = new THREE.Mesh(image_7f7c65c8_c092b38a_iconGeometry, image_7f7c65c8_c092b38a_image);
+    image_7f7c65c8_c092b38a.scale.set(0.3, 0.3, 0.3);
+    image_7f7c65c8_c092b38a.position.set(0.4, 0.36, 0);
+    image_7f7c65c8_c092b38a.rotation.set(-0.001, 0, 0);
     
     
     
-const image_e8362060_44f9037c_iconGeometry = new THREE.PlaneGeometry(1, 1);
-   const image_e8362060_44f9037c_texture = await loadTexture("assets/image 244.png");
-  const image_e8362060_44f9037c_image = new THREE.MeshBasicMaterial({
-      map: image_e8362060_44f9037c_texture,
+const target_imageundefi8896f_iconGeometry = new THREE.PlaneGeometry(1, 0.5625);
+   const target_imageundefi8896f_texture = await loadTexture("assets/gnc-marker.jpg");
+  const target_imageundefi8896f_image = new THREE.MeshBasicMaterial({
+      map: target_imageundefi8896f_texture,
     });
-    const image_e8362060_44f9037c = new THREE.Mesh(image_e8362060_44f9037c_iconGeometry, image_e8362060_44f9037c_image);
-    image_e8362060_44f9037c.scale.set(0.3, 0.3, 0.3);
-    image_e8362060_44f9037c.position.set(0.4, -0.6, 0);
-    image_e8362060_44f9037c.rotation.set(-0.001, 0, 0);
-    image_e8362060_44f9037c.userData.clickable = true
+    const target_imageundefi8896f = new THREE.Mesh(target_imageundefi8896f_iconGeometry, target_imageundefi8896f_image);
+    target_imageundefi8896f.scale.set(1, 1, 1);
+    target_imageundefi8896f.position.set(0.01, -0.01, 0.01);
+    target_imageundefi8896f.rotation.set(-0.001, 0, 0);
     
-    image_e8362060_44f9037c.userData.eventName ="unknown"
+    
+    
+const image_e8362060_44fba998_iconGeometry = new THREE.PlaneGeometry(1, 1);
+   const image_e8362060_44fba998_texture = await loadTexture("assets/image 244.png");
+  const image_e8362060_44fba998_image = new THREE.MeshBasicMaterial({
+      map: image_e8362060_44fba998_texture,
+    });
+    const image_e8362060_44fba998 = new THREE.Mesh(image_e8362060_44fba998_iconGeometry, image_e8362060_44fba998_image);
+    image_e8362060_44fba998.scale.set(0.3, 0.3, 0.3);
+    image_e8362060_44fba998.position.set(0.4, -0.56, 0);
+    image_e8362060_44fba998.rotation.set(-0.001, 0, 0);
+    image_e8362060_44fba998.userData.clickable = true
+    
+    image_e8362060_44fba998.userData.eventName ="Amazon"
 
-    const video_asset_28836a712d3_planeGeometry = new THREE.PlaneGeometry(1, 0.5625);
+    const video_asset_28836ac9cef_planeGeometry = new THREE.PlaneGeometry(1, 0.5625);
 
-    const video_asset_28836a712d3_Item0Video = await loadVideo("assets/gnc-promo-video.webm");
+    const video_asset_28836ac9cef_Item0Video = await loadVideo("assets/gnc-promo-video.webm");
 
-    const video_asset_28836a712d3_Item0VideoTexture = new THREE.VideoTexture(
-      video_asset_28836a712d3_Item0Video
+    const video_asset_28836ac9cef_Item0VideoTexture = new THREE.VideoTexture(
+      video_asset_28836ac9cef_Item0Video
     );
 
-    let video_asset_28836a712d3_Item0VideoMaterial
+    let video_asset_28836ac9cef_Item0VideoMaterial
 
-      video_asset_28836a712d3_Item0VideoMaterial = new THREE.MeshBasicMaterial({
-          map: video_asset_28836a712d3_Item0VideoTexture,
+      video_asset_28836ac9cef_Item0VideoMaterial = new THREE.MeshBasicMaterial({
+          map: video_asset_28836ac9cef_Item0VideoTexture,
         })
     
-     const video_asset_28836a712d3 = new THREE.Mesh(
-      video_asset_28836a712d3_planeGeometry,
-      video_asset_28836a712d3_Item0VideoMaterial
+     const video_asset_28836ac9cef = new THREE.Mesh(
+      video_asset_28836ac9cef_planeGeometry,
+      video_asset_28836ac9cef_Item0VideoMaterial
     );
 
-  video_asset_28836a712d3.position.set(0, 0, 0);
+  video_asset_28836ac9cef.position.set(0, 0, 0);
 
 
 
   if (isIOS) {
-    video_asset_28836a712d3_Item0Video.muted=isIOS
+    video_asset_28836ac9cef_Item0Video.muted=isIOS
     muteIconMesh = await loadUnmuteLogo();
     anchor.group.add(muteIconMesh);
   }
 
-  video_asset_28836a712d3_Item0Video.loop=true;
+  video_asset_28836ac9cef_Item0Video.loop=true;
   
-  video_asset_28836a712d3.scale.set(1.1, 1.1, 1.1);
+  video_asset_28836ac9cef.scale.set(1.1, 1.1, 1.1);
 
-    video_asset_28836a712d3.rotation.set(-0.002, 0, 0);
+    video_asset_28836ac9cef.rotation.set(-0.004, 0, 0);
 
     
   
@@ -270,7 +282,7 @@ const image_e8362060_44f9037c_iconGeometry = new THREE.PlaneGeometry(1, 1);
 
         if(isIOS){ 
           if (o.userData.clickable && o === muteIconMesh) {
-            video_asset_28836a712d3_Item0Video.muted=false
+            video_asset_28836ac9cef_Item0Video.muted=false
     
             anchor.group.remove(muteIconMesh);
             return true;
@@ -283,21 +295,21 @@ const image_e8362060_44f9037c_iconGeometry = new THREE.PlaneGeometry(1, 1);
       if (o.userData.clickable) window.showLoadingScreen();
 
       
-      if (o.userData.clickable && o === image_26700103_c20a4388) {
+      if (o.userData.clickable && o === image_26700103_c20aeec0) {
         setTimeout(()=>{
           window.location.href = "https://blinkit.com/prn/gnc-pro-performance-100-whey-protein-powder-chocolate-fudge/prid/525768"
         },100)
         }
       
 
-      if (o.userData.clickable && o === image_8cfedd60_78204253) {
+      if (o.userData.clickable && o === image_8cfedd60_7827e7bf) {
         setTimeout(()=>{
           window.location.href = "https://www.guardian.in/"
         },100)
         }
       
 
-      if (o.userData.clickable && o === image_e8362060_44f9037c) {
+      if (o.userData.clickable && o === image_e8362060_44fba998) {
         setTimeout(()=>{
           window.location.href = "https://www.amazon.in/GNC-Performance-Endurance-Formulated-Chocolate/dp/B0B9YHP7RW/ref=sr_1_1_sspa?crid=18DB9R4PXEYD8&dib=eyJ2IjoiMSJ9.85cJMhww8SvWkC2glVePR_eXRtQkOf8HZyOSVhkRui4jAgZMj6G50Ni7L2L6BfLbtVVw21_EQzKSkFipCLAVkK_WfpSGwEuluPwfTqWV5q8OJiHjNNssKAOKzvR6h3J20zi3vCOvYe7DzVFVPgzZjPumr_Nv64KNXIybeDiWgI3UaI37G7KFj3YNEmP63EH5OaliqBv4BFGmLWv-ZBFOim0ESpF6odeYmEqhNIETtKfPYRPbrZoq-SeFypPWBjQyO1KoTrMYPSq_upHUN1TlXys57ToyzCyow936ZYcD-a8.gOuYt9PRWkcPLEGEslzve0IT9ALwPsSMC_ba_kyE9Sg&dib_tag=se&keywords=gnc&qid=1717996634&sprefix=gnc%2Caps%2C296&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"
         },100)
@@ -308,11 +320,12 @@ const image_e8362060_44f9037c_iconGeometry = new THREE.PlaneGeometry(1, 1);
     })
     
       
-    anchor.group.add(image_26700103_c20a4388)
-anchor.group.add(image_8cfedd60_78204253)
+    anchor.group.add(image_26700103_c20aeec0)
+anchor.group.add(image_8cfedd60_7827e7bf)
+anchor.group.add(image_7f7c65c8_c092b38a)
 
-anchor.group.add(image_e8362060_44f9037c)
-anchor.group.add(video_asset_28836a712d3)
+anchor.group.add(image_e8362060_44fba998)
+anchor.group.add(video_asset_28836ac9cef)
 
 
     anchor.onTargetFound = () => {
@@ -330,15 +343,17 @@ anchor.group.add(video_asset_28836a712d3)
 
 
 
+
      
-      video_asset_28836a712d3_Item0Video.play();
+      video_asset_28836ac9cef_Item0Video.play();
     };
 
 
     anchor.onTargetLost = () => {
-       video_asset_28836a712d3_Item0Video.pause();
+       video_asset_28836ac9cef_Item0Video.pause();
 
         
+
 
 
 
